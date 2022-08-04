@@ -1,0 +1,13 @@
+Comandos GIT
+************
+
+git config -- global user.email <email> ## configura localmente el email de github
+git config -- global user.name <username> ## configura localmente el username 
+git clone <url> ## Clonar repositorios (Lo hará en la ruta donde se encuentren parados)
+git status ## Status de tu repositorio local
+git pull ## Trae las novedades de la web
+git add . ## Guarda los cambios realizados localmente
+git commit -m "Comentario" ## Aplica los cambios para poder subir al remoto
+git config --list ## Muestra la configuración de tu local
+git push ## Sube los cambios al remoto
+git checkout -b <Nombre de la branch> ## Crea una rama en la cual se trabajará
